@@ -1,5 +1,36 @@
 local options = {
-  ensure_installed = { "lua-language-server" }, -- not an option from mason.nvim
+  ensure_installed = {
+    "lua-language-server",
+    "marksman",
+    "autopep8",
+    "autoflake",
+    "yaml-language-server",
+    "typescript-language-server",
+    "tree-sitter-cli",
+    "tailwindcss-language-server",
+    "python-lsp-server",
+    "pylint",
+    "prettierd",
+    "prettier",
+    "markdown-toc",
+    "markdownlint",
+    "json-lsp",
+    "htmlbeautifier",
+    "html-lsp",
+    "flake8",
+    "eslint_d",
+    "eslint-lsp",
+    "dockerfile-language-server",
+    "docker-compose-language-service",
+    "docformatter",
+    "djlint",
+    "curlylint",
+    "cspell",
+    "cssmodules-language-server",
+    "css-lsp",
+    "bash-language-server",
+    "lua-language-server"
+  }, -- not an option from mason.nvim
 
   PATH = "skip",
 
